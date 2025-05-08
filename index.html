@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Velvet Nights</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0a0a0a;
+      color: #f5f5f5;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff0057, #7a00ff);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: white;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #ff69b4;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1606312615154-6d890d5bca62?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      color: #fff;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 280px;
+      box-shadow: 0 0 15px rgba(255, 0, 87, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 1rem;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      color: #ff69b4;
+    }
+
+    .footer {
+      background-color: #111;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Velvet Nights</h1>
+  </header>
+
+  <nav>
+    <a href="#escorts">Escorts</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Indulge in the Night — Discretion, Elegance, Passion</h2>
+  </div>
+
+  <section class="section" id="escorts">
+    <h2>Featured Companions</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1601851893456-f0c5f2c28e2e?auto=format&fit=crop&w=800&q=80" alt="Escort 1">
+        <div class="card-content">
+          <h3>Aria</h3>
+          <p>Sensual, mysterious, and unforgettable. Aria will leave you breathless.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Escort 2">
+        <div class="card-content">
+          <h3>Luna</h3>
+          <p>Elegant and refined with a wild side. Let Luna light up your night.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1556139943-4bdc1f734a0e?auto=format&fit=crop&w=800&q=80" alt="Escort 3">
+        <div class="card-content">
+          <h3>Sasha</h3>
+          <p>Charming, confident, and classy. Sasha knows how to turn fantasies into reality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Book a Night</h2>
+    <p>For inquiries or bookings, please contact us at <strong>booking@velvetnights.com</strong></p>
+    <p>All interactions are held with the utmost privacy and respect.</p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Velvet Nights. All rights reserved.
+  </footer>
+
+</body>
